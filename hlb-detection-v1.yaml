@@ -1,0 +1,6 @@
+train: ./images/train
+val: ./images/val
+test: ./images/test
+
+nc: 8
+names: ['Healthy (Leaf)', 'Healthy (Fruit)', 'Suspected HLB (Leaf)', 'Suspected HLB (Fruit)', 'Nutrient Deficiency (Leaf)', 'Infection (Leaf)', 'Infection (Fruit)', 'Pest Damage (Leaf)']
