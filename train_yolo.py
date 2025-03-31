@@ -25,7 +25,7 @@ model.train(
     save=True,
     save_period=10,              # save every N epochs
     project="hlb-training",
-    name="yolov8m-l40s-20k",
+    name="yolo11m-l40s-20k",
     exist_ok=True,               # overwrite if the run dir exists
     patience=20,                 # early stopping patience
     val=True,                    # run validation during training
